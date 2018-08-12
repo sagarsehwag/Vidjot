@@ -89,9 +89,7 @@ app.get('/', (req, res) => {
 
 // About Page
 app.get('/about', (req, res) => {
-    const active = 'active';
     res.render('about', {
-        active: active
     });
 });
 
